@@ -192,7 +192,7 @@ if NAMES is nil, \"rime-data\" as fallback."
           (pop-to-buffer buf)))
     (liberime--start)))
 
-(liberime-load)
+;;(liberime-load)
 
 (defun liberime-get-preedit ()
   "Get rime preedit."
